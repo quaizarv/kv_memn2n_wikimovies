@@ -60,10 +60,12 @@ Set the mode paramter in train.py to 'train' and then run train.py
 
 > python train.py
 
-Takes about 150 epochs (pretty fast on a GPU) to converge
+Takes about 5 hours to converge on a GPU
 
 ## Testing
 Set the mode paramter in train.py to 'test' and then run train.py
 > FLAGS.mode = 'test'
 
 > python train.py
+
+Is able to replicate the results in the paper
